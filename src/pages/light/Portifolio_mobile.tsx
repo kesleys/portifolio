@@ -1,5 +1,5 @@
 import './Portifolio_mobile.css';
-import FotoPerfil from "../../assets/Foto_Perfil.png"
+import FotoPerfil from "../../../assets/Foto_Perfil.png"
 
 export default function PortifolioMobileLight () {
     return (
