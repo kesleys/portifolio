@@ -1,0 +1,14 @@
+:root {
+  background-color: var(--Branco);
+  font-family: "Lato", sans-serif;
+  --CorClara: #FEFDFD;
+  --CorEscura: #2A292D;
+  --CorContraste: #165BAB;
+  --CorDestaque: #C39842;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
