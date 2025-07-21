@@ -1,0 +1,53 @@
+.div_nome_e_foto{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header_bg_mobile_light{
+    position: absolute;
+    width: 1429px;
+    height: 1137px;
+    top: -959px;
+    z-index: 0;
+}
+
+.nome_e_foto_portifolio_mobile_light{
+    z-index: 1;
+    margin-top: 64px;
+    display: flex;
+    width: 326px;
+    height: 100px;
+    gap: 10px;
+
+    & img {
+        width: 100px;
+        height: 100px;
+        border-radius: 9999px;
+    }
+
+    & div {
+        align-self: center;
+    }
+
+    & h1 {
+        color: var(--CorEscura);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    & p {
+        margin-top: 10px;
+        color: var(--CorContraste);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+}
