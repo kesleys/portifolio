@@ -20,7 +20,7 @@
     z-index: 1;
     margin-top: 64px;
     display: flex;
-    width: 326px;
+    width: 350px;
     height: 100px;
     gap: 10px;
 
@@ -36,7 +36,7 @@
 
     & h1 {
         color: var(--CorEscura);
-        font-size: 20px;
+        font-size: 24px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -45,7 +45,7 @@
     & p {
         margin-top: 10px;
         color: var(--CorContraste);
-        font-size: 12px;
+        font-size: 16px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
