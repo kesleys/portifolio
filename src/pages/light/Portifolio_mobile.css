@@ -3,51 +3,66 @@
     padding: 0;
     position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     overflow: hidden;
-    height: 100%;
-}
-
-.header_bg_mobile_light{
-    position: absolute;
-    width: 1429px;
-    height: 1137px;
-    top: -943px;
-    z-index: 0;
-}
-
-.nome_e_foto_portifolio_mobile_light{
-    z-index: 1;
-    margin-top: 80px;
-    display: flex;
-    width: 326px;
-    height: 100px;
-    gap: 10px;
-
-    & img {
-        width: 100px;
-        height: 100px;
-        border-radius: 9999px;
-    }
-
-    & div {
-        align-self: center;
-    }
-
-    & h1 {
-        color: var(--CorEscura);
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
 
     & h2 {
-        margin-top: 10px;
-        color: var(--CorContraste);
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
+    color: var(--CorEscura);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 12px;
     }
+}
+
+.contato_profissional{
+    display: flex;
+    flex-direction: column;
+    width: clamp(280px, 90.56vw, 652px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    gap: 20px;
+
+
+    & .formas_de_contato{
+        width: 100%;
+        display: flex;
+
+        gap: 15px;
+
+        & .textos_contato_profissional{
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            
+
+            & .contatotitulo{
+                color: var(--CorEscura);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                text-decoration: none;
+            }
+
+            & .contatodescricao{
+                color: var(--CorContraste);
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+            }
+        }
+
+        & img{
+            width: 40px;
+            height: 40px;
+            align-self: center;
+        }
+    }
+
 }
